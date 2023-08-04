@@ -12,16 +12,20 @@ public class Citizen {
 		Citizen a= new Citizen();
 		Officer b = new Officer();
 		// Citizen
-        a.Input();
-        System.out.println("Citizen information:");
+		System.out.println("Citizen information:");
+		a.Input();
+        
 		
         // Officer
-        b.Input();
-        System.out.println("Officer information:");
+		System.out.println("Officer information:");
+		b.Input();
+        
         
         //Lien ket tinh: Dùng để . đến một thuộc tính 
         //mà không cần tạo đối tượng
+        System.out.println("Citizen display: ");
         Citizen.print(a);
+        System.out.println("Officer display: ");
         Citizen.print(b);
 	}
 	
